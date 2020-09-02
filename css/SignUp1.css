@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.signup-head{
+    color: #42505C;
+    font-size: 24px;
+}
+.signup-body{
+    color: #7D7D7D;
+    font-weight: 500;
+    font-size: 14px;
+}
+#bg-img{
+    background-image: url("../images/signup1-pic.png");
+    background-size: cover;
+    height: 100vh;
+}
+label{
+    color: #6A79DD;
+    font-size: 14px;
+}
+input::placeholder{
+    color: #aeb3b8 !important;
+    font-size: 13px;
+}
+input{
+    background-color:#ffffff !important;
+    border: 1px solid #E4E8EA;
+}
+.login-link{
+    color: #6A79DD !important;
+}
+.btn{
+    background-color: #6A79DD !important;
+    color: white !important;
+}
+#footer p{
+    color: #7D7D7D;
+    font-size: 12px;
+}
+.navigations p{
+    font-size: 14px;
+}
+#user-warn{
+    background: rgb(243, 245, 245) !important;
+    color: #7D7D7D;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+
+@media screen and (max-width:767px){
+    #bg-img{
+        display: none;
+    }
+
+    #user-form{
+        display: block !important;
+    }
+    #cac,
+    #confirm-mail{
+        padding-bottom: 15px;
+    }
+}
